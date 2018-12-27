@@ -1,0 +1,39 @@
+{
+  "name": "xiaozhuangyuan/api",
+  "type": "project",
+  "description": "The API Framework.",
+  "keywords": [
+      "framework",
+      "API"
+  ],
+  "license": "MIT",
+  "require": {
+    "catfan/medoo": "^1.6",
+    "webgeeker/validation": "0.3",
+    "xiaozhuangyuan/srouter": "^2.1.0",
+    "monolog/monolog": "^1.23",
+    "filp/whoops": "^2.3",
+    "inhere/console": "^2.4",
+    "xiaozhuangyuan/jwt": "1.0.0",
+    "xiaozhuangyuan/apkpacker": "^1.0",
+    "symfony/cache": "^4.2",
+    "overtrue/wechat": "~4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "app/"
+    }
+  },
+  "config": {
+    "vendor-dir":"framework/vendor",
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.laravel-china.org"
+    }
+  }
+}
